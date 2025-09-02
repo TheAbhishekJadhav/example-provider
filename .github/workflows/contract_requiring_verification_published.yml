@@ -11,7 +11,7 @@ on:
     inputs:
       PACT_URL:
         description: URL of pact to verify
-        required: true
+        required: false
 
 env:
   PACT_BROKER_BASE_URL: ${{ vars.PACT_BROKER_BASE_URL }}
